@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>التعرف على الإيماءات</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+        #gesture {
+            font-size: 48px;
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 30px;
+        }
+        #type {
+            font-size: 24px;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess the gesture 👀</h1>
+    <div id="gesture">جاري التنبؤ...</div>
+    <div id="type">نوع الحركة: ...</div>
+
+    <script>
+        async function fetchGesture() {
+            try {
+                const response = await fetch('/predict', { method: "POST" });
+                const data = await response.json();
+                document.getElementById("gesture").innerText = "الإيماءة: " + (data.gesture || "❓");
+                document.getElementById("type").innerText = "نوع البيانات: " + (data.data_type === "fixed" ? "ثابتة" : "متحركة");
+            } catch (err) {
+                document.getElementById("gesture").innerText = "حدث خطأ في التنبؤ";
+                document.getElementById("type").innerText = "";
+            }
+        }
+
+        fetchGesture();
+        setInterval(fetchGesture, 1000);
+    </script>
+</body>
+</html>
