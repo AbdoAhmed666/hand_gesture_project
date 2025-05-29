@@ -1,4 +1,3 @@
-# src/data/preprocess_animation.py
 import joblib
 import numpy as np
 from tensorflow.keras.models import load_model
@@ -9,7 +8,17 @@ label_encoder = joblib.load("models/label_encoder2.pkl")
 
 def preprocess_and_predict_animation(window):
     window = np.array(window)
-    X_scaled = scaler.transform(window.reshape(-1, 6)).reshape(1, window.shape[0], 6)
+    
+    # تأكد إن فيه على الأقل 50 صف
+    if window.shape[0] < 50:
+        raise ValueError(f"عدد الصفوف قليل: {window.shape[0]}. النموذج يتطلب 50 صف.")
+
+    # خذ آخر 50 صف فقط
+    window = window[-50:]
+
+    # مقياس وتحويل الشكل
+    X_scaled = scaler.transform(window.reshape(-1, 6)).reshape(1, 50, 6)
+
     probs = model.predict(X_scaled)[0]
     threshold = 0.7
     if np.max(probs) < threshold:

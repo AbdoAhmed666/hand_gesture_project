@@ -8,7 +8,7 @@ def determine_data_type(data):
     diff = np.abs(np.diff(window, axis=0))
     mean_diff = np.mean(diff)
 
-    if mean_diff < 0.2:
+    if mean_diff < 0.4:
         return "fixed"
     else:
         return "animation"

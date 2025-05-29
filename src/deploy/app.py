@@ -1,25 +1,45 @@
-# ✅ ملف app.py بعد التعديل الكامل
+# ✅ ملف app.py بعد التعديل الكامل لاستقبال IP تلقائيًا
 from flask import Flask, request, jsonify, render_template, send_from_directory
 import numpy as np
 import os
 import threading
+import time
+import sys
+import logging
+
 from src.utils.websocket_client import start_websocket_client, get_window
-from src.utils.logger import get_logger
 from src.data.unified_handler import unified_prediction_handler
 
+# إعداد logger يدويًا مع دعم UTF-8
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+if logger.hasHandlers():
+    logger.handlers.clear()
+
+stream_handler = logging.StreamHandler(sys.stdout)
+stream_handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(name)s | %(message)s')
+stream_handler.setFormatter(formatter)
+stream_handler.stream.reconfigure(encoding='utf-8')  # الدعم العربي هنا
+
+logger.addHandler(stream_handler)
+
 app = Flask(__name__, template_folder="templates", static_folder="static")
-logger = get_logger(__name__)
-logger.info("Started running Flask App...")
+logger.info("✅ بدأ تشغيل تطبيق Flask...")
 
-# تشغيل WebSocket Client في thread منفصل
+esp_ip = None  # 🧠 متغير لتخزين عنوان IP الخاص بـ ESP
+
+# ✅ تشغيل WebSocket Client في thread منفصل بمجرد استقبال IP
 def run_ws_client():
-    start_websocket_client("192.168.137.60")  # ✅ غيّر الـ IP حسب جهازك
+    global esp_ip
+    while esp_ip is None:
+        logger.info(" في انتظار استقبال عنوان IP من ESP...")
+        time.sleep(2)
+    start_websocket_client(esp_ip)
 
-ws_thread = threading.Thread(target=run_ws_client)
-ws_thread.daemon = True
-ws_thread.start()
 
-# تخزين آخر نتيجة تنبؤ
+# 🧠 تخزين آخر نتيجة تنبؤ
 temp_prediction = {"gesture": "لا يوجد بعد", "data_type": "غير معروف"}
 
 @app.route("/")
@@ -59,3 +79,20 @@ def get_latest_prediction():
 @app.route('/dashboard')
 def dashboard():
     return send_from_directory(os.path.join(os.path.dirname(__file__), 'static'), 'index.html')
+
+# ✅ مسار جديد لتسجيل IP المُرسل من ESP8266
+@app.route("/register_ip", methods=["POST"])
+def register_ip():
+    global esp_ip
+    try:
+        esp_ip = request.json.get("ip")
+        logger.info(f" تم تسجيل عنوان IP الخاص بـ ESP: {esp_ip}")
+
+        ws_thread = threading.Thread(target=run_ws_client)
+        ws_thread.daemon = True
+        ws_thread.start()        
+        
+        return jsonify({"status": "received", "ip": esp_ip})
+    except Exception as e:
+        logger.error(f"❌ خطأ في تسجيل IP: {e}")
+        return jsonify({"error": "Invalid request"}), 400

@@ -5552,3 +5552,813 @@
 2025-05-14 16:14:24,650 | INFO | werkzeug | 127.0.0.1 - - [14/May/2025 16:14:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
 2025-05-14 16:15:24,911 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
 2025-05-14 16:15:24,911 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
+2025-05-15 02:36:59,856 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 02:37:01,716 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 02:37:02,863 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 02:37:02,898 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 02:37:02,898 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 02:37:02,912 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 02:37:03,664 | INFO | websocket | Websocket connected
+2025-05-15 02:37:24,197 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 02:37:26,817 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 02:37:28,873 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 02:37:28,895 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 02:37:28,911 | INFO | werkzeug |  * Debugger PIN: 125-975-768
+2025-05-15 02:37:28,970 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:28] "GET / HTTP/1.1" 200 -
+2025-05-15 02:37:30,084 | INFO | websocket | Websocket connected
+2025-05-15 02:37:43,299 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:37:48,928 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:37:51,744 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:37:51,924 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:37:57,198 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:37:58,930 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:37:59,115 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:37:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:03,924 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:08,876 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:08] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:38:08,910 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:08] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:38:09,936 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:09] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:38:17,386 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:19,634 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:19] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:38:22,671 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:22] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:38:28,495 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:28] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:38:31,841 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:32,301 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:32,706 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:32,810 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:37,707 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:43,521 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:47,027 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:38:52,005 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:38:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:04,208 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:04] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:06,341 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:15,568 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:39:16,704 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:19,483 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:19,629 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:20,726 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:26,228 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:26,661 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:28,071 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:28] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:39:28,178 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:28] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:39:31,502 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:34,176 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:36,520 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:37,994 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:41,296 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:42,977 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:39:59,627 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:39:59] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:40:00,725 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:00] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:40:01,616 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:01] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:40:04,248 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:04] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:08,781 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:15,084 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:16,303 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:17,344 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:19,874 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:21,425 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:22,999 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:24,244 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:26,743 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:26,983 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:30,577 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:34,489 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:39,394 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:42,220 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:45,426 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:48,895 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:49,252 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:50,962 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:40:55,756 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:40:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:03,264 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:07,324 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:09,282 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:09,674 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:14,645 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:15,327 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:19,705 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:24,357 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:25,779 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:28,292 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:28,831 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:32,236 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:39,973 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:42,542 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:46,341 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:49,992 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:53,674 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:55,370 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:56,325 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:41:56,637 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:41:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:00,651 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:23,233 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:29,561 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:31,497 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:32,706 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:33,262 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:34,398 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:36,867 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:37,415 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:42,686 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:43,704 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:43] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:42:45,391 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:49,388 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:54,396 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:55,851 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:42:58,928 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:42:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:00,923 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:01,888 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:03,593 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:03] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:06,001 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:06] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:09,823 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:09] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:15,002 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:15,832 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:20,521 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:20] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:25,984 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:25] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:29,448 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:31,377 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:31] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:33,999 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:39,208 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:39,403 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:45,364 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:45] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:46,740 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:46] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:51,826 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:53,312 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:53] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:43:55,939 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:56,140 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:56,221 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:43:56,591 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:43:56] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:02,463 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:02] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:05,184 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:05] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:17,454 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:44:19,406 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:19] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:19,419 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:44:22,059 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:44:24,982 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:44:26,246 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:44:29,369 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:29] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:30,644 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:30] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:36,586 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:36] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:39,133 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:42,920 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:42] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:48,789 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:48] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:49,420 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:49] "POST /predict HTTP/1.1" 200 -
+2025-05-15 02:44:55,428 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:44:57,761 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:44:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:02,818 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:04,321 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:04] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:06,623 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:09,266 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:14,087 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:15,706 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:21,394 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:21,463 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:27,046 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:45:29,456 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 02:45:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 02:46:31,537 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
+2025-05-15 02:46:31,537 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
+2025-05-15 15:22:20,819 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:22:22,272 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:22:23,289 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:22:23,305 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 15:22:23,305 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 15:22:23,312 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 15:22:24,117 | INFO | websocket | Websocket connected
+2025-05-15 15:22:30,214 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:22:31,280 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:22:32,193 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:22:32,203 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 15:22:32,208 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 15:22:32,262 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:22:32] "GET / HTTP/1.1" 200 -
+2025-05-15 15:22:33,070 | INFO | websocket | Websocket connected
+2025-05-15 15:22:39,629 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:22:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:22:39,636 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:22:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:23:29,518 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:23:30,275 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:23:30,934 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:23:30,951 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 15:23:30,951 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 15:23:30,953 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 15:23:31,762 | INFO | websocket | Websocket connected
+2025-05-15 15:23:41,955 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:23:44,006 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:23:45,502 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:23:45,516 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 15:23:45,524 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 15:23:45,569 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:23:45] "GET / HTTP/1.1" 200 -
+2025-05-15 15:23:46,334 | INFO | websocket | Websocket connected
+2025-05-15 15:23:54,261 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:23:54] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:24:01,106 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:01,157 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:08,827 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:09,181 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:09,195 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:09,298 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:19,704 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:21,198 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:23,180 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:26,524 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:31,403 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:36,829 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:36] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:24:39,945 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:40,060 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:40,897 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:24:49,786 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:49] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:24:52,738 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:52] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:24:59,298 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:24:59] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:25:00,667 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:00] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:25:02,397 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:03,617 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:03,838 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:05,396 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:11,688 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:16,114 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:18,325 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:22,169 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:26,457 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:26,457 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:26] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:25:38,101 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:38,117 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:38,618 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:42,952 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:44,326 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:50,488 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:50,935 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:25:52,630 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:25:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:00,273 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:00,922 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:00] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:02,817 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:07,285 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:07] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:08,645 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:08] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:16,426 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:16,442 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:23,715 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:25,953 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:26,569 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:30,052 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:30,879 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:30] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:34,600 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:34] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:36,943 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:36] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:40,619 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:47,378 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:51,765 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:51] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:26:53,317 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:55,684 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:26:56,920 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:26:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:27:02,912 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:27:02] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:36:43,666 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:36:45,279 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:36:46,306 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:36:46,331 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 15:36:46,332 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 15:36:46,333 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 15:36:47,315 | INFO | websocket | Websocket connected
+2025-05-15 15:36:56,985 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:36:57,564 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:36:58,047 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:36:58,064 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 15:36:58,070 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 15:36:58,840 | INFO | websocket | Websocket connected
+2025-05-15 15:42:39,823 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:42:40,404 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:42:40,873 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:42:40,891 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 15:42:40,891 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 15:42:40,892 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 15:42:41,811 | INFO | websocket | Websocket connected
+2025-05-15 15:42:47,384 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:42:48,027 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:42:48,523 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:42:48,534 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 15:42:48,537 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 15:42:49,316 | INFO | websocket | Websocket connected
+2025-05-15 15:42:55,309 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:42:55] "GET / HTTP/1.1" 200 -
+2025-05-15 15:42:55,533 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:42:55] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:42:56,612 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:42:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:43:03,556 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:03] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:11,319 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:11] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:11,323 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:11] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:19,370 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:43:23,119 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:43:27,741 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:27] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:28,233 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:28] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:30,452 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:43:31,935 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:31] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:34,859 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:34] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:37,686 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:37] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:38,416 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:43:43,902 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:43] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:49,088 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:43:49,096 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:49] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:51,106 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:51] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:43:59,953 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:43:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:02,255 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:06,052 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:07,573 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:08,721 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:13,163 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:16,487 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:44:21,251 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:22,303 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:27,462 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:33,321 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:36,291 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:37,912 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:39,940 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:41,015 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:45,011 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:47,299 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:47] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:44:52,238 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:52] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:44:52,586 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:44:59,599 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:59] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:44:59,599 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:44:59] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:01,998 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:01] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:08,628 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:45:13,075 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:13] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:16,809 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:45:18,476 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:45:24,861 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:24] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:25,369 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:45:26,481 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:45:30,076 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:45:36,820 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:36] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:37,670 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:37] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:39,371 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:41,811 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:41] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:43,285 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:43] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:48,265 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:48] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:55,022 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:55] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:56,350 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:56] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:45:57,784 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:45:57] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:03,281 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:03] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:06,235 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:06] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:08,363 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:08] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:11,651 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:11] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:15,924 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:18,054 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:18] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:19,355 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:19] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:46:28,789 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:46:28,852 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:46:29,089 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:46:35,937 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:46:37,873 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:46:44,941 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:46:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:03,541 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:53:04,107 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:53:04,597 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:53:04,611 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 15:53:04,611 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 15:53:04,614 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 15:53:10,666 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 15:53:11,218 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 15:53:11,705 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 15:53:11,713 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 15:53:11,715 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 15:53:12,413 | INFO | websocket | Websocket connected
+2025-05-15 15:53:12,522 | INFO | websocket | Websocket connected
+2025-05-15 15:53:33,195 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:41,163 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:44,858 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:45,834 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:47,229 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:48,712 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:50,812 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:53,821 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:57,908 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:53:58,224 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:53:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:00,993 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:02,199 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:05,153 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:06,632 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:06,798 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:06] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:13,818 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:13] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:16,867 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:19,005 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:19] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:20,383 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:21,881 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:21] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:31,000 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:31] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:33,680 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:33] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:34,560 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:34] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:34,564 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:34] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:39,280 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:39,538 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:47,017 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:47] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:48,826 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:48] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:51,021 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 15:54:54,953 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:54] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:54:55,943 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:54:55] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:04,301 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:04] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:06,235 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:06] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:10,350 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:10] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:14,767 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:14] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:15,929 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:15,972 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:20,342 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:20] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:23,082 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:23] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:26,408 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:26] "POST /predict HTTP/1.1" 200 -
+2025-05-15 15:55:26,896 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 15:55:26] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:00,949 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:07:01,560 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:07:02,078 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:07:02,092 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 16:07:02,092 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 16:07:02,093 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 16:07:02,882 | INFO | websocket | Websocket connected
+2025-05-15 16:07:08,638 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:07:09,199 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:07:09,654 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:07:09,671 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 16:07:09,673 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 16:07:10,057 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:10] "GET / HTTP/1.1" 200 -
+2025-05-15 16:07:10,516 | INFO | websocket | Websocket connected
+2025-05-15 16:07:27,161 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:07:33,245 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:07:40,547 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:42,834 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:42] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:43,978 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:43] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:47,955 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:07:50,870 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:50] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:52,906 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:52] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:54,269 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:54] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:54,473 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:54] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:07:57,341 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:07:57] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:01,022 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:01] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:06,531 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:08,962 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:08] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:11,261 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:11] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:13,600 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:13] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:16,012 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:18,309 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:20,553 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:22,540 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:28,322 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:30,764 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:30] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:30,764 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:30] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:31,637 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:31] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:33,686 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:08:40,202 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:40,202 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:45,748 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:45] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:49,128 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:49] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:52,135 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:52] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:08:55,307 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:08:55] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:00,988 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:00] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:05,812 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:05] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:08,442 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:08] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:10,697 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:10] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:13,474 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:13] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:18,431 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:18] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:19,862 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:19] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:20,500 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:20] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:25,882 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:25] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:29,216 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:29] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:34,028 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:34] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:38,537 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:38] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:38,968 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:09:40,779 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:40,779 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:45,305 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:45] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:47,481 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:47] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:09:52,120 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:09:55,883 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:09:57,790 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:09:57] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:01,409 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:01] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:05,813 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:05] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:07,349 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:07] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:07,578 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:07] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:16,879 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:17,070 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:10:22,249 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:22] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:24,920 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:10:30,522 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:10:30,937 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:30] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:33,166 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:33] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:39,941 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:41,249 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:41] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:43,244 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:10:44,229 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:44] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:50,917 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:50] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:53,442 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:53] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:10:56,713 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:10:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:01,912 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:05,208 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:05] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:11,724 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:15,708 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:15] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:16,057 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:16,467 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:16] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:19,887 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:19] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:21,652 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:24,190 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:24] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:28,779 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:28] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:31,813 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:31] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:38,658 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:38] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:40,662 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:11:42,502 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:44,631 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:47,125 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:54,466 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:54,523 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:59,591 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:11:59,827 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:11:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:12:06,487 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:12:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:12:07,564 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:12:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:12:10,094 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:12:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:13:10,238 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
+2025-05-15 16:13:10,238 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
+2025-05-15 16:20:05,900 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:20:06,481 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:20:06,954 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:20:06,982 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 16:20:06,982 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 16:20:06,984 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 16:20:14,397 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:20:15,030 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:20:15,790 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:20:15,794 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 16:20:15,803 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 16:20:15,959 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:20:15] "GET / HTTP/1.1" 200 -
+2025-05-15 16:20:24,842 | ERROR | websocket | [WinError 10061] No connection could be made because the target machine actively refused it - goodbye
+2025-05-15 16:20:33,630 | ERROR | websocket | [WinError 10061] No connection could be made because the target machine actively refused it - goodbye
+2025-05-15 16:21:35,716 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:21:36,283 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:21:36,749 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:21:36,776 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 16:21:36,776 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 16:21:36,779 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 16:21:42,768 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:21:43,315 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:21:43,784 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:21:43,801 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 16:21:43,805 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 16:21:54,842 | ERROR | websocket | [WinError 10061] No connection could be made because the target machine actively refused it - goodbye
+2025-05-15 16:22:01,839 | ERROR | websocket | [WinError 10061] No connection could be made because the target machine actively refused it - goodbye
+2025-05-15 16:27:59,497 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:28:00,075 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:28:00,547 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:28:00,555 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 16:28:00,555 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-15 16:28:00,564 | INFO | werkzeug |  * Restarting with stat
+2025-05-15 16:28:01,421 | INFO | websocket | Websocket connected
+2025-05-15 16:28:07,009 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-15 16:28:07,563 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-15 16:28:08,091 | INFO | src.deploy.app | Started running Flask App...
+2025-05-15 16:28:08,097 | WARNING | werkzeug |  * Debugger is active!
+2025-05-15 16:28:08,098 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-15 16:28:08,940 | INFO | websocket | Websocket connected
+2025-05-15 16:28:22,783 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:22] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:22,798 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:22] "GET / HTTP/1.1" 200 -
+2025-05-15 16:28:25,512 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:25] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:29,821 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:29] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:35,050 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:35] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:35,572 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:35] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:35,793 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:35] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:36,109 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:36] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:36,746 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:36] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:46,723 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:46] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:49,328 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:49] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:52,456 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:52] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:28:55,696 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:28:56,472 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:28:58,903 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:28:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:00,906 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:07,383 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:07] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:12,241 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:16,184 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:17,895 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:17] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:20,327 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:21,283 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:26,382 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:26] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:30,752 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:30] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:32,610 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:32] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:35,149 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:35] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:39,661 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:39] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:40,173 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:40] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:46,101 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:46] "POST /predict HTTP/1.1" 200 -
+2025-05-15 16:29:48,937 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:54,374 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:55,226 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:29:59,473 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:29:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:00,630 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:06,900 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:09,649 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:12,066 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:12,731 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:15,623 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:21,287 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:21,288 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:29,173 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:33,695 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:33,773 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:34,034 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:34,075 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:42,010 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:47,319 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:48,896 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:49,781 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:53,349 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:30:58,328 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:30:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:31:00,134 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:31:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:31:06,188 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:31:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:31:08,736 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:31:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:31:09,998 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:31:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:31:15,254 | INFO | werkzeug | 127.0.0.1 - - [15/May/2025 16:31:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-15 16:32:16,293 | ERROR | websocket | [WinError 10054] An existing connection was forcibly closed by the remote host - goodbye
+2025-05-17 00:17:36,371 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-17 00:17:37,638 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-17 00:17:38,945 | INFO | src.deploy.app | Started running Flask App...
+2025-05-17 00:17:38,980 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 00:17:38,980 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-17 00:17:38,985 | INFO | werkzeug |  * Restarting with stat
+2025-05-17 00:17:39,731 | INFO | websocket | Websocket connected
+2025-05-17 00:17:56,830 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-17 00:17:57,986 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-17 00:17:58,919 | INFO | src.deploy.app | Started running Flask App...
+2025-05-17 00:17:58,928 | WARNING | werkzeug |  * Debugger is active!
+2025-05-17 00:17:58,932 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-17 00:17:58,972 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:17:58] "GET / HTTP/1.1" 200 -
+2025-05-17 00:18:00,057 | INFO | websocket | Websocket connected
+2025-05-17 00:18:13,094 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:13] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:13,097 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:13] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:21,439 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:21] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:23,025 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:23] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:25,043 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:25] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:28,003 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:18:29,837 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:29] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:30,169 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:30] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:34,362 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:34] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:41,149 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:41] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:44,352 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:44] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:45,122 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:45] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:46,350 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:46] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:52,881 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:52] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:55,302 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:55] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:18:59,819 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:18:59] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:02,195 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:02] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:04,175 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:04] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:06,122 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:06] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:06,546 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:06] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:14,252 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:14] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:16,020 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:19:19,665 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:19] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:22,372 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:19:25,315 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:25] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:31,766 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:31] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:34,460 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:19:38,109 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:38] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:38,258 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:38] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:41,080 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:41] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:47,087 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:47] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:49,309 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:49] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:52,961 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:52] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:19:54,658 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:19:59,658 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:19:59] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:01,256 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:01,260 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:01] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:04,295 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:04] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:13,569 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:13] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:15,823 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:15] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:19,857 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:19] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:20,010 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:20] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:23,720 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:23] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:25,205 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:25] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:27,800 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:27] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:20:33,105 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:33,125 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:44,398 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:46,172 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:49,044 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:49,571 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:50,631 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:20:53,605 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:20:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:21:02,129 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:21:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:21:02,680 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:21:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:36:21,592 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-17 00:36:22,512 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-17 00:36:23,128 | INFO | src.deploy.app | Started running Flask App...
+2025-05-17 00:36:23,155 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 00:36:23,155 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-17 00:36:23,159 | INFO | werkzeug |  * Restarting with stat
+2025-05-17 00:36:23,917 | INFO | websocket | Websocket connected
+2025-05-17 00:36:29,770 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-17 00:36:30,365 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-17 00:36:30,875 | INFO | src.deploy.app | Started running Flask App...
+2025-05-17 00:36:30,881 | WARNING | werkzeug |  * Debugger is active!
+2025-05-17 00:36:30,884 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-17 00:36:31,002 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:36:31] "GET / HTTP/1.1" 200 -
+2025-05-17 00:36:31,648 | INFO | websocket | Websocket connected
+2025-05-17 00:36:47,027 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:36:47] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:36:57,894 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:36:57] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:00,358 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:00] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:05,359 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:05] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:09,218 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:09] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:10,843 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:10] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:13,939 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:13] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:15,395 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:22,279 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:22] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:27,822 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:27] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:29,903 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:29] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:30,884 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:30] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:36,417 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:36,598 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:36] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:36,701 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:36] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:42,103 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:42] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:42,553 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:42] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:44,454 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:44] "POST /predict HTTP/1.1" 200 -
+2025-05-17 00:37:47,837 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:49,019 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:50,251 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:51,001 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:53,331 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:37:56,997 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:37:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:38:01,335 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:38:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:38:03,033 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:38:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-17 00:38:05,439 | INFO | werkzeug | 127.0.0.1 - - [17/May/2025 00:38:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-05-22 15:28:21,391 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-22 15:28:23,008 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-22 15:28:24,076 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-22 15:28:24,076 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-22 15:28:24,079 | INFO | werkzeug |  * Restarting with stat
+2025-05-22 15:28:37,551 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-22 15:28:39,163 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-22 15:28:40,780 | WARNING | werkzeug |  * Debugger is active!
+2025-05-22 15:28:40,786 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-22 15:28:40,849 | INFO | werkzeug | 127.0.0.1 - - [22/May/2025 15:28:40] "GET / HTTP/1.1" 200 -
+2025-05-22 15:33:53,211 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-22 15:33:54,246 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-22 15:33:55,159 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-22 15:33:55,159 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-05-22 15:33:55,161 | INFO | werkzeug |  * Restarting with stat
+2025-05-22 15:34:09,066 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-22 15:34:10,706 | WARNING | tensorflow | From C:\Users\hp zbook\.conda\envs\gess_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-22 15:34:12,138 | WARNING | werkzeug |  * Debugger is active!
+2025-05-22 15:34:12,148 | INFO | werkzeug |  * Debugger PIN: 138-989-563
+2025-05-22 15:34:12,264 | INFO | werkzeug | 127.0.0.1 - - [22/May/2025 15:34:12] "GET / HTTP/1.1" 200 -
